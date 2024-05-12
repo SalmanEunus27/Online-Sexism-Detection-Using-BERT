@@ -1,1 +1,1 @@
-
+For Task B, we are using a model that includes the sentence transformer all-MiniLM-L6-v2 along with multiple convolutional and dense layers as shown in Figure 4. Sentence Transformers are based on Sentence-BERT, which is a modification of the pre-trained BERT network that uses siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine similarity. This reduces the effort for finding the most similar pair from 65 hours with BERT / RoBERTa to about 5 seconds with SBERT while maintaining the accuracy from BERT
